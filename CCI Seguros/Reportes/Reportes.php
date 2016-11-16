@@ -48,7 +48,7 @@ $documento = $_POST['documento'];
 	</tr>
 	<br>
 	<?php 
-	$conexion = new mysqli("localhost","root","","cci");
+	$conexion = new mysqli("localhost","root","BDatos*2016","cci");
 	$consulta = "Select v.num_poliza, u.nombres, u.apellidos, t.descripcion_poliza, v.fechainicia, v.fechafin from (venta_poliza v join Usuarios u ON v.id_usuario=u.id_usuario) join tipopoliza t ON t.id_poliza=v.tipopoliza_id_poliza where v.Id_usuario=".$documento;
 	$res_cosulta =  $conexion->query($consulta);
 	while($rows = $res_cosulta->fetch_assoc()){ ?>
