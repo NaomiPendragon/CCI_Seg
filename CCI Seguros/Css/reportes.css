@@ -1,0 +1,158 @@
+*{
+margin:0px;
+padding:0px;
+}
+
+body{
+		margin: 0px; 	
+		background-color:#001030;
+		color: #fff;
+		
+}
+
+header{
+
+	width: 603px; 	
+	margin: auto;
+
+}
+
+header img{
+	width: 100%;
+
+	}
+
+nav ul li{
+
+	float:right;
+	background:#000;
+	list-style:none;
+
+}
+
+.here{
+
+	background: #fff;
+	display:block; 
+	margin:0px;
+	padding:10px 32.4px; 
+	text-decoration:none;
+	color:#000;
+
+}
+
+.here:hover{
+
+	cursor:default;
+}
+
+.Buttom{
+
+	
+	display:block; 
+	margin:0px;
+	padding:10px 32.4px; 
+	text-decoration:none;
+	color:#fff;
+
+
+}
+
+.Buttom:hover{
+
+	color:#000;
+	background-color:#fff;
+
+}
+
+.Porito {
+
+margin: auto;
+background-color:#001030;
+
+
+}
+
+section{
+width: 30%;
+margin: auto;
+
+}
+
+form{
+
+padding: 20px;
+margin-top: 50px;
+border: 1px solid #0F3572;
+
+}
+
+label{
+
+padding:0px;
+width: 100%;
+
+}
+
+form label{
+
+display: block;
+padding:0px;
+width: 100%;
+
+ }
+
+input, select{
+
+width: 85%;
+border:none;
+padding: 3px;
+display: block;
+margin: 20px;
+ 
+ }
+
+input, select:focus {
+
+border: 1px solid #1E68DF;
+
+ }
+
+input[type="submit"]{
+
+margin-bottom: 0px;
+padding-left: 20px;
+padding-right: 20px;
+color:#fff;
+background: #000;
+
+ }
+
+input[type="submit"]:hover{
+
+color:#000;
+background: #fff;
+
+ } 	
+
+td input {
+	margin-bottom: 10px;
+}
+
+.titulos {
+	 padding:10px;
+     color: #fff;
+	 font-weight: bold;
+     border-radius:12px;
+}
+
+table {
+	
+     width: 100%;
+     height: 55px;
+     padding-top: 40px;
+     text-align: center;
+     border-spacing: 10px;
+     border-radius: 20px;
+
+}

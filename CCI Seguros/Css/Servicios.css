@@ -1,0 +1,74 @@
+*{
+margin:0px;
+padding:0px;
+}
+
+body{
+	
+		background-color:#001030;
+		color: #fff;
+		
+}
+
+header{
+
+	width: 603px; 	
+	margin: auto;
+
+}
+
+header img{
+	width: 100%;
+
+	}
+
+nav ul li{
+
+	float:right;
+	background:#000;
+	list-style:none;
+
+}
+
+.here{
+
+	background: #fff;
+	display:block; 
+	margin:0px;
+	padding:10px 48.5px; 
+	text-decoration:none;
+	color:#000;
+
+}
+
+.here:hover{
+
+	cursor:default;
+}
+
+.Buttom{
+
+	
+	display:block; 
+	margin:0px;
+	padding:10px 48.5px; 
+	text-decoration:none;
+	color:#fff;
+
+
+}
+
+.Buttom:hover{
+
+	color:#000;
+	background-color:#fff;
+
+}
+
+section{
+width: 30%;
+margin: auto;
+
+}
+
+
